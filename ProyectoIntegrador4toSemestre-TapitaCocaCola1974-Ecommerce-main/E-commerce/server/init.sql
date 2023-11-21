@@ -1,0 +1,6 @@
+CREATE TABLE purchased_items (
+    id SERIAL PRIMARY KEY,
+    data JSONB,
+    purchase_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
